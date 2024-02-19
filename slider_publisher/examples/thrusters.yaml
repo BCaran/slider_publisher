@@ -1,0 +1,6 @@
+micro_ros_arduino_subscriber:
+    type: std_msgs/msg/Int32
+    data:   # field name can be used here, no need for to:
+        min: 0
+        max: 50
+        default: 0
